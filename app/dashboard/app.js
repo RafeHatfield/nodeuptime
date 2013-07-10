@@ -24,7 +24,7 @@ app.configure(function(){
   app.use(function locals(req, res, next) {
     res.locals.route = app.route;
     res.locals.renderCssTags = function (all) {
-      if (all != undefined) {
+      if (all !== undefined) {
         return all.map(function(css) {
           return '<link rel="stylesheet" href="' + app.route + '/stylesheets/' + css + '">';
         }).join('\n ');

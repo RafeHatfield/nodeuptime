@@ -32,5 +32,4 @@ mongoose.connection.on('open', function (err) {
   });
 });
 
-
 module.exports = mongoose;
