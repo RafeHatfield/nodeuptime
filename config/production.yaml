@@ -3,7 +3,7 @@ mongodb:
   database: uptime
   user:     root 
   password:
-  connectionString:       # alternative to setting server, database, user and password separately
+  connectionString:  mongodb://heroku_app16838217:cu7go46n0g73msgfj1f0vfkqop@ds035358.mongolab.com:35358/heroku_app16838217     # alternative to setting server, database, user and password separately
 
 monitor:
   name:                   origin
