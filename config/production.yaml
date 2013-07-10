@@ -1,9 +1,10 @@
 mongodb:
-  server:   ds035358.mongolab.com:35358
-  database: heroku_app16838217
-  user:     heroku_app16838217 
-  password: cu7go46n0g73msgfj1f0vfkqop
-  connectionString:  # mongodb://heroku_app16838217:cu7go46n0g73msgfj1f0vfkqop@ds035358.mongolab.com:35358/heroku_app16838217     # alternative to setting server, database, user and password separately
+  server:   #ds035358.mongolab.com:35358
+  database: #heroku_app16838217
+  user:     #heroku_app16838217 
+  password: #cu7go46n0g73msgfj1f0vfkqop
+  connectionString:  mongodb://heroku_app16838217:cu7go46n0g73msgfj1f0vfkqop@ds035358.mongolab.com:35358/heroku_app16838217     
+  # alternative to setting server, database, user and password separately
 
 monitor:
   name:                   origin
