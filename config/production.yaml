@@ -45,4 +45,4 @@ email:
     to:              # The message recipient, e.g. 'bar@blurdybloop.com, baz@blurdybloop.com'
   dashboardUrl: 'http://localhost/'
 
-verbose: true # only used in dev
+verbose: false # only used in dev
